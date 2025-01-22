@@ -72,7 +72,7 @@ services:
         volumes:
             - ./.volumes/dolibarr/custom:/var/www/html/custom
             - ./.volumes/dolibarr/documents:/var/www/documents
-            - ../sociasmercao:/var/www/html/
+            - ../sociasmercao:/var/www/html/sociasmercao
         depends_on:
             - mariadb
         environment:
