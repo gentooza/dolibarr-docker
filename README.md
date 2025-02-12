@@ -160,8 +160,8 @@ You can use the following variables for a better customization of your docker-co
 | **DOLI_DB_USER**                | *dolidbuser*                   | Database user
 | **DOLI_DB_PASSWORD**            | *dolidbpass*                   | Database user's password
 | **DOLI_URL_ROOT**               | *http://localhost*             | Url root of the Dolibarr installation
-| **DOLI_ADMIN_LOGIN**            | *admin*                        | Admin's login created on the first boot
-| **DOLI_ADMIN_PASSWORD**         | *admin*                        | Admin's initial password created on the first boot
+| **DOLI_ADMIN_LOGIN**            | *admintest*                        | Admin's login created on the first boot
+| **DOLI_ADMIN_PASSWORD**         | *admintest*                        | Admin's initial password created on the first boot
 | **DOLI_ENABLE_MODULES**         |                                | Comma-separated list of modules to be activated at install. modUser will always be activated. (Ex: `Societe,Facture,Stock`)
 | **DOLI_COMPANY_NAME**           |                                | Set the company name of Dolibarr at container init
 | **DOLI_COMPANY_COUNTRYCODE**    |                                | Set the company and Dolibarr country at container init. Need 2-letter codes like "FR", "GB", "US",...
@@ -191,7 +191,6 @@ Environment variables that are compatible with docker secrets:
 * `DOLI_CRON_KEY` => `DOLI_CRON_KEY_FILE`
 * `DOLI_CRON_USER` => `DOLI_CRON_USER_FILE`
 * `DOLI_INSTANCE_UNIQUE_ID` => `DOLI_INSTANCE_UNIQUE_ID_FILE`
-
 
 
 ## Advanced setup
