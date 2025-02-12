@@ -72,6 +72,7 @@ services:
         volumes:
             - ./.volumes/dolibarr/custom:/var/www/html/custom
             - ./.volumes/dolibarr/documents:/var/www/documents
+            - ./.volumes/dolibarr/apache2_logs:/var/log/apache2
             - ../sociasmercao:/var/www/html/sociasmercao
         depends_on:
             - mariadb
